@@ -24,6 +24,9 @@ Simple WordPress plugin that displays WordPress information about the hooks. It 
 
 == Changelog ==
 
-= 1.0 =
 
+= 1.1.0 =
+Improved comments and style
+
+= 1.0 =
 Initial version
