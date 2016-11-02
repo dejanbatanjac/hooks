@@ -10,23 +10,23 @@
  * Domain Path: languages
  * License: GPLv2 or later
 
-* Plugin "hooks" is free software: you can redistribute it and/or modify
-* it under the terms of the GNU General Public License as published by
-* the Free Software Foundation, either version 2 of the License, or
-* any later version.
-*
-* Plugin "hooks" plugin is distributed in the hope that it will be useful,
-* but WITHOUT ANY WARRANTY; without even the implied warranty of
-* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
-* GNU General Public License for more details.
-*
-* You should have received a copy of the GNU General Public License
-* along with plugin "hooks". If not, see <http://www.gnu.org/licenses/>.
-*
-* TODO: Improve internalization support.
-* TODO: Transform echo into pritntf.
-* TODO: Add the @doctype support.
-*/
+ * Plugin "hooks" is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 2 of the License, or
+ * any later version.
+ *
+ * Plugin "hooks" plugin is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with plugin "hooks". If not, see <http://www.gnu.org/licenses/>.
+ *
+ * TODO: Improve internalization support.
+ * TODO: Transform echo into pritntf.
+ * TODO: Add the @doctype support.
+ */
 
 /**
  * WordPress version need to be at least 4.5.
@@ -89,7 +89,7 @@ final class DB_Plugin_Hooks {
       echo '</a>';
       echo ', ';
     }
-		// Add little distance.
+    // Add little distance.
     echo '<hr>';
     echo '<hr>';
 
@@ -110,8 +110,8 @@ final class DB_Plugin_Hooks {
         }
       } // End if().
       else {
-				echo '<br> (no actions)';
-			}
+        echo '<br> (no actions)';
+      }
 
       $f = $this->get_filters( $f );
       if ( ! empty( $f ) ) {
@@ -123,8 +123,8 @@ final class DB_Plugin_Hooks {
         echo '<hr>';
       } // End if().
       else {
-				echo '<br> (no filters)<hr>';
-			}
+        echo '<br> (no filters)<hr>';
+      }
       echo '</ hr>';
     }
     echo '</div>';
@@ -170,7 +170,7 @@ final class DB_Plugin_Hooks {
    */
   function install_hooks() {
     // Info that the plugin is activated.
-		update_option( 'DB_Plugin_Hooks', true );
+    update_option( 'DB_Plugin_Hooks', true );
   }
 
   /**
